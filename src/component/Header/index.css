@@ -1,0 +1,118 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+  }
+}
+
+.nav-bar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-logo-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50%;
+}
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-mobile-icon {
+  color: #f8fafc;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.nav-bar-desktop-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-desktop-logo-container {
+    display: flex;
+  }
+}
+
+.website-logo-desktop {
+  width: 200px;
+  height: 50px;
+}
+
+.nav-bar-desktop-content-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+.nav-menu-list-desktop {
+  display: flex;
+  list-style-type: none;
+}
+.nav-menu-item-desktop {
+  margin-right: 30px;
+}
+.nav-link-desktop {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+.logout-btn {
+  background-color: #4f46e5;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  color: #f8fafc;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 12px 25px;
+}

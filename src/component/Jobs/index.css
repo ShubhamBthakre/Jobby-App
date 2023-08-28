@@ -1,0 +1,234 @@
+.jobs-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000;
+}
+.responsive-container-jobs {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sm-view-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  background-color: #000000;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  background-color: #000000;
+  color: #cbd5e1;
+  outline: none;
+}
+
+.search-icon-container {
+  background-color: #202020;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.search-btn {
+  background-color: #202020;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+}
+
+.search-icon {
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 40px;
+}
+.profile-name {
+  color: #4f46e5;
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.short-bio {
+  color: #2c364c;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.jobs-filters-list-container {
+  width: 100%;
+  padding-left: 0px;
+  margin: 0px;
+}
+.jobs-filters-heading {
+  color: #f8fafc;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-item {
+  list-style-type: none;
+}
+.jobs-filters-input {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.label {
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+.search-input-and-job-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lg-view-input-container {
+  display: none;
+}
+
+.jobs-list-container {
+  padding: 0px;
+}
+.list-item-job {
+  list-style-type: none;
+  padding: 15px;
+  background-color: #272727;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+.company-logo-and-job-title-container {
+  display: flex;
+}
+.company-logo {
+  width: 75px;
+  height: 75px;
+}
+.job-title-and-rationg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.company-name {
+  color: #f8fafc;
+  font-size: 20px;
+  margin: 0px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 6px;
+}
+.rating {
+  margin: 0px;
+  font-size: 16px;
+  color: #f8fafc;
+}
+.location-job-type-salary-package-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.location-and-job-type-container {
+  display: flex;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.location-icon {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.job-location {
+  color: #f8fafc;
+  font-size: 16px;
+  margin: 0px;
+}
+.job-type-container {
+  display: flex;
+  align-items: center;
+}
+.job-icon {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.job-type {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.salary-package {
+  color: #f8fafc;
+  font-size: 16px;
+}
+.description-heading {
+  color: #f8fafc;
+  font-size: 22px;
+}
+.job-description {
+  color: #f8fafc;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container-jobs {
+    flex-direction: row;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .sm-view-input-container {
+    display: none;
+  }
+  .lg-view-input-container {
+    background-color: #202020;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 600px;
+    border: 1px solid #475569;
+    border-radius: 5px;
+  }
+  .search-input-and-job-details-container {
+    width: 55%;
+    padding: 20px;
+  }
+}
